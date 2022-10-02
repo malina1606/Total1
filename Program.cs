@@ -13,4 +13,9 @@ Console.WriteLine("Исходный массив:");{
         Console.Write(" "+ stringArray[i]);
     }
   
+for (int i =0 ;i < stringArray.Length; i++){
+        if (stringArray[i].Length <= 3){
+            stringAr[i] = stringArray[i];
+        }
+    }
 
