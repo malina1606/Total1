@@ -19,3 +19,7 @@ for (int i =0 ;i < stringArray.Length; i++){
         }
     }
 
+Console.WriteLine("Результирующий массив:");{
+    for(int i=0; i < stringArray.Length; i++)
+        Console.Write(" "+ stringAr[i]);
+    }
